@@ -1,4 +1,46 @@
 ﻿body {
-    background-color: coral;
-    color: darkorchid
+    background-color: #ff7f50;
+    color: #ffffff;
+}
+
+
+#mainTitle {
+    color: #000000;
+    text-align: left;
+}
+
+
+.gridContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 10px;
+}
+
+.gridBox {
+    background-color: #374fc4;
+    display: grid;
+    margin: 10px;
+    border: 10px solid yellowgreen;
+}
+
+.GridBoxTitle {
+    color: #00ffff;
+    text-align: center;
+    font-size: 30px;
+}
+
+.GridBoxText {
+    display: grid;
+    margin: 10px;
+}
+
+.SpecialStuff {
+    display: grid;
+    margin: 10px;
+    background-color: #374fc4;
+    border: 10px solid yellowgreen;
+}
+
+.Hidden{
+
 }
